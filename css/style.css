@@ -1,5 +1,5 @@
 body {
-    padding: 30px;
+    padding: 0;
     margin: 0;
 }
 
@@ -8,6 +8,10 @@ body {
     height: 50px;
     background-color: #fab889;
 }
+
+.Header-section div {
+display: inline-block;
+}
 nav {
     display: inline-block;
 }
@@ -15,7 +19,7 @@ nav {
 li {
     display: inline-block;
     text-decoration: underline;
-   margin-left: 70px;
+   margin-left: 20px;
     color: black; 
     font-size: 20px;
     font-style: italic;
@@ -26,11 +30,9 @@ li {
     background-color: goldenrod;
     font-family: "Oswald", sans-serif;
     font-size: 26px;
-    width: 110px;
-    color: #fff;
-    height: 50px;
-    display: inline-block;
-    
-    
-    
+   color: #fff;
+    padding: 10px;
 }
+    
+    
+    
