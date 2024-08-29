@@ -1,0 +1,36 @@
+body {
+    padding: 30px;
+    margin: 0;
+}
+
+.Header-section {
+   
+    height: 50px;
+    background-color: #fab889;
+}
+nav {
+    display: inline-block;
+}
+
+li {
+    display: inline-block;
+    text-decoration: underline;
+   margin-left: 70px;
+    color: black; 
+    font-size: 20px;
+    font-style: italic;
+   
+}
+.Icon {
+    
+    background-color: goldenrod;
+    font-family: "Oswald", sans-serif;
+    font-size: 26px;
+    width: 110px;
+    color: #fff;
+    height: 50px;
+    display: inline-block;
+    
+    
+    
+}
