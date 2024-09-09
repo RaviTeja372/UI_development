@@ -1,6 +1,7 @@
 body {
     padding: 0;
     margin: 0;
+    background-color: #d7edfb;
 }
 
 .Header-section {
@@ -19,8 +20,8 @@ nav {
 
 li {
     display: inline-block;
-    margin-left: 30px;
-    font-size: 15px;
+    margin-left: 60px;
+    font-size: 18px;
     font-family: 'Times New Roman', serif;
 
 
@@ -42,20 +43,20 @@ h4 {
 
     background-color: #FF6A00;
     font-family: "Oswald", sans-serif;
-    font-size: 26px;
+    font-size: 26.2px;
     color: #fff;
     padding: 10px;
-    width: 150px;
+    width: 180px;
     text-align: center;
     border-radius: 0px 5px 5px 0px;
 }
 
 .Icon:hover {
-    width: 160px;
+    color: white;
     border-radius: 0px 5px 5px 0px;
     font-family: "Oswald", sans-serif;
-    font-weight: 700;
-   
+    font-weight: 750;
+
 
 }
 
@@ -81,7 +82,7 @@ a {
     text-decoration: none;
 }
 
-a:visited {
+a {
     color: white;
 }
 
@@ -89,4 +90,25 @@ a:hover {
     color: #FFA500;
     font-size: 20px;
     font-weight: 600;
+}
+
+a:active {
+    color: #fff;
+}
+
+button {
+    background-color: #93b7e7;
+    color: #f9fafc;
+}
+
+.header_Product {
+    padding: 1px;
+    background-color: #9c893d;
+    color: white;
+    text-align: center;
+}
+
+.border_line {
+    margin-top: 10px;
+    border-top: 2px dotted #003153;
 }
